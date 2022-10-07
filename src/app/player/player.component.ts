@@ -13,7 +13,7 @@ export class PlayerComponent implements OnInit {
 
   ngOnInit(): void {
     this.bServ.getPlayers().subscribe((res) => {
-      console.log(res);
+      //console.log(res);
       this.players = res;
       //console.log(this.players);
     });

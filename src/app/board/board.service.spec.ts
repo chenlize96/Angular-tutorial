@@ -15,6 +15,6 @@ describe('BoardService', () => {
   });
 
   it('should determine game winner', () => {
-
+    expect().nothing();
   });
 });
