@@ -15,6 +15,11 @@ describe('BoardService', () => {
   });
 
   it('should determine game winner', () => {
-    expect().nothing();
+    var board = ['', '', '', '', '', '', '', '', ''];
+    board[0] = "X";
+    board[4] = "X";
+    board[8] = "X";
+    expect(service.wonGame("X", board)).toBeTrue();
+    //expect().nothing();
   });
 });
